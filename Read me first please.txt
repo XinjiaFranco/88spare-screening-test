@@ -1,0 +1,12 @@
+Out of the four instruction of the screening test, I manage to finish 1 to 3,
+but when applying JWT authentication on my Rest API, the project was filled with error.
+Such error is when applying [from rest_framework_simplejwt import views as jwt_views] in urls.py
+it cause red underline on both rest_framework_simplejwt and jwt_views which prevent the api to run
+therefore, to avoid error, I erased them from my code.
+
+Rest API manage to GET, POST, and PUT either from localhost directly or using Postman(or similar application) 
+
+If both api and vuejs run both at the same time, 
+please activate CORS in order for vuejs to obtain data from the rest api.
+
+Thank you for reading! 

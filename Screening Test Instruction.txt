@@ -1,0 +1,22 @@
+Please follow below instruction for screening test
+
+1. make a django REST API that can fetch currency rates from https://fiskal.kemenkeu.go.id/informasi-publik/kurs-pajak. 
+
+2. create django command to update currency rates from above web source and stored it into django model
+
+3. create spa page using vue.js of one HTML page that 
+has currency selector, upon submit button will show 
+exchange rate that fetching from django REST API 
+that you created previously. 
+
+API call should use JWT 
+with auth header "88HEAD thisisstatictoken"
+
+4. JWT auth token should be validated with 
+HMAC SHA-256
+
+* Python codes should follow PEP8 guideline
+* Upload your work into github and email back with repository link
+* Latest submission are on Sunday 28th of June 22.00
+
+Good luck comrade!
